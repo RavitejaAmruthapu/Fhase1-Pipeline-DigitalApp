@@ -89,7 +89,7 @@
 			-->
 		</plugins>
 	</build>
-	<!--
+	
 	<repositories>
 		<repository>
 			<id>internalMavenReleaseRepository</id>
@@ -109,7 +109,7 @@
 			<url>http://35.154.78.116:8081/repository/devops-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
-	-->
+	
 	<profiles>
 		<profile>
 			<id>sonar</id>
