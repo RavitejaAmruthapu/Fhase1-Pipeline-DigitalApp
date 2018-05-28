@@ -92,19 +92,19 @@
 	<!--
 	<repositories>
 		<repository>
-			<id>nexus</id>
+			<id>internalMavenReleaseRepository</id>
 			<name>libs-release</name>
 			<url>http://35.154.78.116:8081/repository/devops-releases/</url>
 		</repository>
 	</repositories>
 	<distributionManagement>
 		<repository>
-			<id>deployment</id>
+			<id>internalMavenReleaseRepository</id>
 			<name>Nexus Release Repository</name>
 			<url>http://35.154.78.116:8081/repository/devops-releases/</url>
 		</repository>
 		<snapshotRepository>
-			<id>deployment</id>
+			<id>internalMavenSnapshotRepository</id>
 			<name>Nexus Snapshots Repository</name>
 			<url>http://35.154.78.116:8081/repository/devops-snapshots/</url>
 		</snapshotRepository>
